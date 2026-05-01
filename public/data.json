@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "category": "Development"
+  },
+  {
+    "id": 2,
+    "title": "React JS Mastery",
+    "instructor": "Sarah Smith",
+    "duration": "15 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Master React and build modern web applications.",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    "category": "Development"
+  },
+  {
+    "id": 3,
+    "title": "UI/UX Design Fundamentals",
+    "instructor": "Michael Lee",
+    "duration": "12 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Learn design principles and create user-friendly interfaces.",
+    "image": "https://images.unsplash.com/photo-1586717791821-3f44a563fa4c",
+    "category": "Design"
+  },
+  {
+    "id": 4,
+    "title": "Advanced JavaScript",
+    "instructor": "David Miller",
+    "duration": "18 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Deep dive into advanced JavaScript concepts.",
+    "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
+    "category": "Development"
+  },
+  {
+    "id": 5,
+    "title": "Digital Marketing Basics",
+    "instructor": "Emily Davis",
+    "duration": "10 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Learn SEO, social media marketing and online advertising.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+    "category": "Marketing"
+  },
+  {
+    "id": 6,
+    "title": "Mobile App Development with Flutter",
+    "instructor": "Sophia Brown",
+    "duration": "16 hours",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "description": "Build cross-platform mobile apps using Flutter.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c",
+    "category": "Development"
+  },
+  {
+    "id": 7,
+    "title": "Python for Beginners",
+    "instructor": "James Wilson",
+    "duration": "14 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Start programming with Python from scratch.",
+    "image": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935",
+    "category": "Programming"
+  },
+  {
+    "id": 8,
+    "title": "Data Science Essentials",
+    "instructor": "Olivia Taylor",
+    "duration": "22 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Learn data analysis and visualization techniques.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71",
+    "category": "Data Science"
+  },
+  {
+    "id": 9,
+    "title": "Cyber Security Basics",
+    "instructor": "Daniel Anderson",
+    "duration": "13 hours",
+    "rating": 4.5,
+    "level": "Beginner",
+    "description": "Understand the fundamentals of cyber security.",
+    "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3",
+    "category": "Security"
+  }
+]
