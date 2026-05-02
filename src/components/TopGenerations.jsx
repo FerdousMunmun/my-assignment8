@@ -8,7 +8,7 @@ const TopGenerations   = async () => {
 
   return (
     <div className="container mx-auto ">
-        <h2 className="text-4xl font-bold my-8 text-blue-950 text-center">All Courses</h2>
+        <h2 className="text-4xl font-bold my-8 text-blue-900 text-center">All Courses</h2>
 
         
             <div className="grid grid-cols-3 gap-5">

@@ -18,22 +18,22 @@ const userData = authClient.useSession();
   return (
    <nav className="container mx-auto sticky top-0 z-40 w-full">
   <header className="flex h-16 items-center justify-between px-6">
-    <div className="font-bold text-4xl text-green-800">Skill<span className="font-black text-3xl text-blue-950 transform-rotatet-45">sphere</span></div>
+    <div className="font-bold text-4xl text-green-800">Skill<span className="font-black text-3xl text-blue-900 transform-rotatet-45">sphere</span></div>
     <ul className="flex items-center gap-4">
-      <li className="font-semibold text-md text-blue-950"><Link href={"/"}>Home</Link></li>
-      <li className="font-semibold text-md text-blue-950"><Link href={"/all-photos"}>Courses</Link></li>
-      <li className="font-semibold text-md text-blue-950"><Link href={"/profile"}>My Profile</Link></li>
+      <li className="font-semibold text-md text-blue-900"><Link href={"/"}>Home</Link></li>
+      <li className="font-semibold text-md text-blue-900"><Link href={"/all-photos"}>Courses</Link></li>
+      <li className="font-semibold text-md text-blue-900"><Link href={"/profile"}>My Profile</Link></li>
     </ul>
 
 
     <div className="flex gap-4">
           {!user && (
-            <ul className="flex items-center  text-sm gap-5 text-blue-950">
+            <ul className="flex items-center font-semibold text-md gap-5 text-blue-900">
               <li>
-                <Link href={"/signup"}>Login</Link>
+                <Link href={"/signup"}>Signup</Link>
               </li>
               <li>
-                <Link href={"/signin"}>Register</Link>
+                <Link href={"/signin"}>Login</Link>
               </li>
             </ul>
           )}

@@ -101,6 +101,14 @@ export default function SignInPage() {
       <p className="text-center">Or</p>
 
       <Button onClick={handlGoogleSignIn} variant="outline" className={'w-full'}> <GrGoogle />Sign In With Google</Button>
+
+
+      <p className="mt-4 text-center text-sm">
+  Don&apos;t have an account?{" "}
+  <a href="/sign-up" className="text-blue-600 underline">
+    Register
+  </a>
+</p>
     </Card>
   );
 }
