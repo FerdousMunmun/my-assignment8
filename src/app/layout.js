@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "animate.css";
+import { Toaster } from "sonner";
 import Navbar from "@/components/Navber";
 import Footer from "@/components/Footer";
 
@@ -27,7 +28,9 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Navbar/>
-        <main>{children}</main>
+        <main>{children}
+          <Toaster position="top-right" richColors />
+        </main>
         
         <Footer/>
         </body>

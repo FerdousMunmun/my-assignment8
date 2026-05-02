@@ -11,6 +11,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
 
 
@@ -40,7 +41,7 @@ export default function SignInPage() {
 
   return (
     <Card className="border mx-auto w-125 py-10 mt-5">
-      <h1 className="text-center text-2xl font-bold">Sign In</h1>
+      <h1 className="text-center text-2xl font-bold text-blue-900">Log In</h1>
 
       <Form className="flex w-96 mx-auto flex-col gap-4" onSubmit={onSubmit}>
         <TextField
@@ -105,9 +106,9 @@ export default function SignInPage() {
 
       <p className="mt-4 text-center text-sm">
   Don&apos;t have an account?{" "}
-  <a href="/sign-up" className="text-blue-600 underline">
+  <Link href="/register" className="text-blue-600 underline">
     Register
-  </a>
+  </Link>
 </p>
     </Card>
   );

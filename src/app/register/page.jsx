@@ -30,7 +30,7 @@ export default function RegisterPage() {
     }
 
     alert("Registration successful. Please login now.");
-    router.push("/login");
+    router.push("/signin");
   };
 
   const handleGoogleSignIn = async () => {
@@ -64,7 +64,7 @@ export default function RegisterPage() {
 
         <p className="mt-5 text-center text-sm">
           Already have an account?{" "}
-          <Link href="/login" className="text-blue-600 underline">
+          <Link href="/signin" className="text-blue-600 underline">
             Login
           </Link>
         </p>
