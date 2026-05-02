@@ -24,12 +24,13 @@ export default function SignUpPage() {
     const image = e.target.image.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
-
+console.log({name,image,email,password})
     const {data, error} = await authClient.signUp.email({
         name,
         email,
         password,
-        image,
+       image,
+        // callbackURL:'/'
     })
     
 
@@ -37,7 +38,15 @@ export default function SignUpPage() {
 
     if(!error) {
         router.push('/')
+
     }
+
+    if(error){
+  alert("Error signing up:" + error.message);
+}
+if(data){
+  alert ("Sign up succeccfull Please check your email verify your account.");
+}
 
   };
 

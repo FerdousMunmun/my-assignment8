@@ -28,12 +28,12 @@ const userData = authClient.useSession();
 
     <div className="flex gap-4">
           {!user && (
-            <ul className="flex items-center  text-sm gap-5">
+            <ul className="flex items-center  text-sm gap-5 text-blue-950">
               <li>
-                <Link href={"/signup"}>SignUp</Link>
+                <Link href={"/signup"}>Login</Link>
               </li>
               <li>
-                <Link href={"/signin"}>SignIn</Link>
+                <Link href={"/signin"}>Register</Link>
               </li>
             </ul>
           )}
@@ -49,7 +49,7 @@ const userData = authClient.useSession();
                 <Avatar.Fallback>{user?.name.charAt(0)}</Avatar.Fallback>
               </Avatar>
 
-              <Button onClick={handleSignOut} size="sm" variant="danger">SignOut</Button>
+              <Button onClick={handleSignOut} size="sm" variant="danger">Logout</Button>
             </div>
           )}
         </div>
