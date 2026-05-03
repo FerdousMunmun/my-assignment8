@@ -31,7 +31,12 @@ export default function SignInPage() {
     console.log({ data, error });
   };
 
-  if(error){
+ if(!error) {
+        router.push('/')
+
+    }
+
+    if(error){
   alert("Error signing up:" + error.message);
 }
 
