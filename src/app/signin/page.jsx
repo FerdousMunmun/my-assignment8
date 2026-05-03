@@ -31,14 +31,14 @@ export default function SignInPage() {
     console.log({ data, error });
   };
 
- if(!error) {
-        router.push('/')
-
-    }
-
-    if(error){
-  alert("Error signing up:" + error.message);
+  if (result?.error) {
+  alert("Login failed: " + result.error.message);
+  return;
 }
+
+alert("Login successful");
+router.push("/");
+
 
   const handlGoogleSignIn = async () => {
     await authClient.signIn.social({
