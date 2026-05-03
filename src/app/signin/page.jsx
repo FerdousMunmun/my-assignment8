@@ -31,6 +31,10 @@ export default function SignInPage() {
     console.log({ data, error });
   };
 
+  if(error){
+  alert("Error signing up:" + error.message);
+}
+
   const handlGoogleSignIn = async () => {
     await authClient.signIn.social({
         provider: 'google'
